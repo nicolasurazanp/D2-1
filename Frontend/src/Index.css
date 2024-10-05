@@ -1,0 +1,428 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0 10px;
+  border-bottom: 5px solid #0C88D1;
+}
+
+.navbar-section {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.links a {
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.Logo {
+  width: 60px;
+  height: 45px;
+}
+
+.ui.animated.button {
+  background-color: transparent;
+}
+
+
+
+/* Footer.css */
+.ui.inverted.list .list>a.item>.icon, .ui.inverted.list>a.item>.icon {
+  color: white;
+}
+
+.icon-twitter:hover .twitter.huge.link.icon {
+  color: #1DA1F2;
+}
+
+.icon-facebook:hover .facebook.huge.link.icon {
+  color: #3B5998;
+}
+
+.icon-instagram:hover .instagram.huge.link.icon {
+  background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.icon-youtube:hover .youtube.huge.link.icon {
+  color: #FF0000;
+}
+
+.ui.horizontal.inverted.list .item {
+  transition: transform 0.3s ease; /* Aplica una transición suave de 0.3 segundos en la propiedad transform */
+}
+
+.ui.horizontal.inverted.list .item:hover {
+  transform: translateY(-7px); /* Sube el ícono 5px cuando se hace hover */
+}
+
+
+/* CARDS */
+.headerCards{
+  margin-top: 20px;
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 100%; /* Asegura que el encabezado ocupe el ancho completo */
+  margin-bottom: 20px; /* Espacio debajo del encabezado */
+  }
+
+.titularCards{
+  color: #1DA1F2;
+  font-size: 20px;
+}
+
+.titular-description{
+  color: #7E7E7E;
+  font-weight: bold;
+}
+
+.ui.card {
+  flex: 1 1 30%;
+  max-width: 500px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease; /* Agrega la transición de transformación aquí */
+}
+
+.ui.card:hover {
+  transform: translateY(-10px); /* Aplica la transformación a toda la tarjeta en hover */
+}
+
+@media screen and (max-width: 768px) {
+  .ui.card {
+    flex-basis: 45%; /* Reducir el ancho de las tarjetas en pantallas más pequeñas */
+  }
+}
+
+
+.lastPrice{
+  text-decoration: line-through;
+  margin-top: 10px;
+}
+
+.ui.card>.content>.description, .ui.cards>.card>.content>.description {
+  clear: both;
+  color: rgba(0, 0, 0, .68);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+  margin-bottom: 15px;
+}
+
+
+.btn-comprar{
+  width: 100%;
+  background-color:#1DA1F2 ;
+  color:  white;
+  font-weight: bold;
+  
+}
+
+.btn-comprar:hover{
+  background-color: #1d83f2;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.ContainerCards {
+  margin-top: 20px;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-around; /* Centra las tarjetas horizontalmente */
+  align-items: flex-start; /* Alinea las tarjetas en la parte superior */
+  flex-wrap: wrap; /* Permite el ajuste de línea en pantallas pequeñas */
+  width: 100%;
+}
+
+.ui.card:first-child {
+  margin-top: auto !important;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+
+
+/* banner css */
+.ui.container {
+  width: 100vw !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+}
+
+.ui.fluid.image, .ui.fluid.image img, .ui.fluid.image svg, .ui.fluid.images, .ui.fluid.images img, .ui.fluid.images svg {
+  display: block;
+  height: 50%;
+  width: 100%;
+}
+
+/* css cards Drogueria*/
+
+.cardsContainerDrugs {
+  display: flex;
+  justify-content: space-around; /* Centra las tarjetas horizontalmente */
+  align-items: flex-start; /* Alinea las tarjetas en la parte superior */
+  flex-wrap: wrap; /* Permite el ajuste de línea en pantallas pequeñas */
+  width: 25%;
+}
+
+.containerCardsDrugs{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.ContainerCardsDrugs {
+  display: flex;
+}
+
+/*Login Y Register*/
+
+.ui.teal.button, .ui.teal.buttons .button {
+  background-color: #0C88D1 !important;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+  margin-bottom: 10px;
+}
+
+.ui.teal.header {
+  color:  #0C88D1 !important;
+}
+
+.ui.avatar.image, .ui.avatar.image img, .ui.avatar.image svg, .ui.avatar.images .image, .ui.avatar.images img, .ui.avatar.images svg {
+  margin-top: 10px;
+}
+
+/* css cards Products*/
+
+.cardsContainerProducts {
+  display: flex;
+  justify-content: space-around; /* Centra las tarjetas horizontalmente */
+  align-items: flex-start; /* Alinea las tarjetas en la parte superior */
+  flex-wrap: wrap; /* Permite el ajuste de línea en pantallas pequeñas */
+  width: 25%;
+}
+
+.containerCardsProducts{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.ContainerCardsProducts {
+  display: flex;
+}
+
+/* carousel */
+
+.slick-slider{
+  margin-top: 10px;
+}
+ 
+/* Anuncio */
+
+.anuncio-section{
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* About us*/
+.ui.center.aligned.header, .ui.centered.header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Terms*/
+.containerTerms{
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+ a{
+  color: unset ;
+}
+
+.icon-contacto-checks{
+  color: #0C88D1;
+}
+
+/* Dinamismo login y register */
+
+.form-transition-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.form-transition-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.form-transition-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.form-transition-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f4f4;
+}
+
+.form-column {
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+
+.login-header, .register-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form, .register-form {
+  text-align: center; /* Centra el contenido */
+}
+
+.login-header img, .register-header img {
+  width: 20%; /* Ajusta el tamaño del logo */
+  height: auto;
+}
+
+.login-segment, .register-segment {
+  margin-bottom: 10px;
+}
+
+.login-input, .register-input {
+  margin-bottom: 10px;
+}
+
+.login-input input, .register-input input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.custom-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0C88D1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.custom-button:hover {
+  background-color: #1DA1F2;
+}
+
+.message {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.message a {
+  color: #0C88D1;
+  text-decoration: none;
+}
+
+.message a:hover {
+  text-decoration: underline;
+}
+
+.fastLogin {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección del flexbox a columna */
+  align-items: center;
+  margin-top: 10px;
+}
+.login-text {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px; /* Ajusta el tamaño de la imagen de Google */
+  height: 50px;
+  margin-top: 10px; /* Añade un poco de espacio entre el botón y la imagen */
+}
+
+.span-login-header, .span-register-header {
+  margin-top: 10px;
+  display: block; /* Asegura que el texto esté en una línea */
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.login-header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.span-login-header {
+  margin-top: 10px;
+}
