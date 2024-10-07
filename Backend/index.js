@@ -20,6 +20,7 @@ conectarDB();
 app.use("/api/usuarios", usuarioRoutes);
 app.use("/api/proveedores", proveedorRoutes); 
 app.use("/api/pedidos", pedidoRoutes); 
+// se comento debido a error en el archivo proyectoRoutes.js
 //app.use('/api/proyectos', proyectoRoutes);
 
 const PORT = process.env.PORT || 4000;
